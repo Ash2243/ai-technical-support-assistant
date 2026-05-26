@@ -56,9 +56,12 @@ Currently in development.
 - Shifted project architecture toward knowledge-base retrieval and support workflow automation
 - Implemented TF-IDF and cosine similarity based knowledge-base retrieval
 - Added query enrichment workflow to improve indirect customer query matching
-- Implemented escalation handling for uncertain support queries
-- Developed operational KPI dashboard for support workflow analytics
+- Implemented confidence-based response handling and escalation simulation
+- Developed workflow simulation layer for AI-assisted support operations
+- Added operational workflow logging and confidence-driven decision logic
+- Developed KPI dashboard for support workflow analytics
 - Performed ticket status, priority, unresolved workload, and customer satisfaction analysis
-- Added operational insight reporting and KPI summary analytics
+- Added operational insight reporting, KPI summaries, and workflow findings
+  
 
 
