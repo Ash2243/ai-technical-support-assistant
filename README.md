@@ -51,17 +51,21 @@ Currently in development.
 ## Current Progress
 
 - Performed exploratory data analysis (EDA) on customer support ticket datasets
-- Built NLP preprocessing pipeline including text cleaning and normalization
-- Evaluated baseline ticket classification model and identified dataset label inconsistencies
-- Shifted project architecture toward knowledge-base retrieval and support workflow automation
-- Implemented TF-IDF and cosine similarity based knowledge-base retrieval
-- Added query enrichment workflow to improve indirect customer query matching
-- Implemented confidence-based response handling and escalation simulation
-- Developed workflow simulation layer for AI-assisted support operations
-- Added operational workflow logging and confidence-driven decision logic
-- Developed KPI dashboard for support workflow analytics
-- Performed ticket status, priority, unresolved workload, and customer satisfaction analysis
-- Added operational insight reporting, KPI summaries, and workflow findings
+- Identified dataset inconsistencies and shifted project direction from pure ticket classification toward retrieval-based support automation
+- Built NLP preprocessing pipeline including text cleaning, normalization, stopword handling, and query enrichment
+- Implemented TF-IDF vectorization and cosine similarity based knowledge-base retrieval system
+- Developed confidence-based workflow routing for automated response handling and escalation simulation
+- Added query enrichment logic to improve indirect intent matching and account/login related retrieval accuracy
+- Built workflow simulation engine for AI-assisted customer support operations
+- Generated augmented customer query datasets to simulate realistic operational support traffic
+- Developed workflow logging system to capture query behavior, confidence scores, routing decisions, and retrieval outcomes
+- Performed workflow analytics on 650 simulated support interactions
+- Implemented operational KPI tracking including AI resolution rate, escalation rate, and similarity score monitoring
+- Built workflow visualizations for decision distribution and confidence score analysis
+- Conducted escalation analysis to identify support categories with high uncertainty and escalation frequency
+- Developed support KPI analytics dashboard covering ticket status, priority distribution, unresolved workload, and customer satisfaction trends
+- Added operational findings, workflow limitations, and future system improvement recommendations
+- Established foundational architecture for an AI-assisted support operations platform combining retrieval systems, workflow automation, escalation handling, and operational analytics
   
 
 
