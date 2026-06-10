@@ -34,7 +34,7 @@ In addition to the AI assistant, the project includes workflow simulation and op
 
 ### AI Response Output
 
-![Response Output](screenshots/response.png)
+![Response Output](screenshots/result.png)
 
 ## Project Architecture
 
