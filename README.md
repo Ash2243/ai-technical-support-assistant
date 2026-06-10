@@ -1,71 +1,90 @@
 # AI Technical Support Assistant
 
+An AI-powered customer support automation system that combines NLP preprocessing, retrieval-based response generation, workflow routing, escalation handling, and operational analytics.
+
+The project simulates how modern customer support platforms automate repetitive customer interactions while escalating uncertain queries to human support agents.
+
+Built using Python, Scikit-learn, NLP techniques, and Streamlit.
+
 ## Project Overview
-AI-powered technical support assistant designed to automate customer support workflows using NLP, sentiment analysis, escalation logic, and KPI analytics.
 
-## Features
+This project was developed to explore how AI can assist customer support operations through intelligent query processing and retrieval-based automation.
 
-- AI-assisted support query retrieval using TF-IDF and cosine similarity
-- Query enrichment and text normalization workflow
-- Knowledge-base response matching for customer support queries
-- Escalation workflow handling for uncertain or unmatched queries
-- Support ticket preprocessing and operational workflow analysis
-- KPI dashboard for customer support operations analytics
-- Ticket priority, status, and unresolved workload analysis
-- Customer satisfaction and support channel analysis
+The system uses Natural Language Processing (NLP), TF-IDF vectorization, cosine similarity retrieval, and confidence-based workflow routing to analyze customer queries and provide relevant support responses.
 
-## Tech Stack
-- Python
-- Streamlit
-- Scikit-learn
-- TF-IDF Vectorization
-- Cosine Similarity
-- Matplotlib
-- Seaborn
+In addition to the AI assistant, the project includes workflow simulation and operational analytics modules to evaluate support performance, escalation behavior, and automation effectiveness.
 
-## Repository Structure
+## Key Features
 
-notebooks/
-├── eda.ipynb
-├── kb_retrieval_system.ipynb
-├── support_kpi_dashboard.ipynb
+- NLP Query Preprocessing and Enrichment
+- TF-IDF Knowledge Base Retrieval
+- Cosine Similarity Response Matching
+- Confidence-Based Escalation Logic
+- AI-Assisted Customer Support Workflow
+- Workflow Simulation Engine
+- Operational KPI Analytics
+- Escalation Monitoring and Analysis
+- Streamlit-Based Interactive Interface
 
-data/
-├── model_ready_kb.csv
-├── support_df_sample.csv
+## Application Preview
 
-README.md
+### Query Submission Interface
 
-## Future Improvements
+![Query Interface](screenshots/query.png)
 
-- Workflow simulation and escalation automation
-- Semantic search using embeddings
-- Streamlit deployment
-- Real-time support analytics dashboard
-- Automated ticket routing
-- LLM-assisted support response generation
+### AI Response Output
 
-## Project Status
-Currently in development.
+![Response Output](screenshots/response.png)
+
+## Project Architecture
+
+User Query
+    ↓
+Query Preprocessing
+    ↓
+TF-IDF Vectorization
+    ↓
+Cosine Similarity Retrieval
+    ↓
+Confidence Evaluation
+    ↓
+AI Response / Human Escalation
 
 ## Current Progress
 
-- Performed exploratory data analysis (EDA) on customer support ticket datasets
-- Identified dataset inconsistencies and shifted project direction from pure ticket classification toward retrieval-based support automation
-- Built NLP preprocessing pipeline including text cleaning, normalization, stopword handling, and query enrichment
-- Implemented TF-IDF vectorization and cosine similarity based knowledge-base retrieval system
-- Developed confidence-based workflow routing for automated response handling and escalation simulation
-- Added query enrichment logic to improve indirect intent matching and account/login related retrieval accuracy
-- Built workflow simulation engine for AI-assisted customer support operations
-- Generated augmented customer query datasets to simulate realistic operational support traffic
-- Developed workflow logging system to capture query behavior, confidence scores, routing decisions, and retrieval outcomes
-- Performed workflow analytics on 650 simulated support interactions
-- Implemented operational KPI tracking including AI resolution rate, escalation rate, and similarity score monitoring
-- Built workflow visualizations for decision distribution and confidence score analysis
-- Conducted escalation analysis to identify support categories with high uncertainty and escalation frequency
-- Developed support KPI analytics dashboard covering ticket status, priority distribution, unresolved workload, and customer satisfaction trends
-- Added operational findings, workflow limitations, and future system improvement recommendations
-- Established foundational architecture for an AI-assisted support operations platform combining retrieval systems, workflow automation, escalation handling, and operational analytics
-  
+- Completed customer support ticket data exploration and preprocessing
+- Built retrieval-ready knowledge base
+- Implemented TF-IDF vectorization and cosine similarity retrieval
+- Developed query preprocessing and enrichment pipeline
+- Implemented confidence-based escalation workflow
+- Built workflow simulation engine for support operations
+- Generated workflow analytics using 650 simulated support interactions
+- Developed KPI tracking for AI resolution and escalation monitoring
+- Conducted escalation trend analysis and workflow performance evaluation
+- Modularized backend architecture into reusable Python modules
+- Built a working Streamlit application for end-to-end support query handling
+- Added application screenshots and deployment-ready project structure
 
+## Future Improvements
 
+- Semantic Search using Sentence Transformers
+- Context-Aware Query Understanding
+- Adaptive Confidence Thresholds
+- Multi-Turn Support Conversations
+- Advanced Analytics Dashboard
+- Ticket Generation and Tracking System
+- Streamlit Cloud Deployment
+- Vector Database Integration
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLP
+- TF-IDF Vectorization
+- Cosine Similarity
+- Streamlit
+- Matplotlib
+- Seaborn
